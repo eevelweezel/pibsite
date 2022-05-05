@@ -1,0 +1,9 @@
+
+*.py[cod]
+*.swp
+.coverage
+db.sqlite3
+*/settings_local.py
+htmlcov
+media/*
+*.pem
