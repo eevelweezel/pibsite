@@ -1,0 +1,3 @@
+[submodule "pib/static/sshy"]
+	path = pib/static/sshy
+	url = https://github.com/stuicey/SSHy.git
