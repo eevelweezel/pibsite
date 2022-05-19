@@ -33,8 +33,15 @@ https://docs.google.com/document/d/1H3x34bdztWy-uN8EYe-FxJL2YojIjd-0feL9d8BMtN4/
 <body>
 <h1>This is a header!</h1>
 <p>It's Aliiiiiiiiive!</p>
-
-<canvas id="video-canvas" width="640" height="480">
+<div class="container">
+<div class="row align-items-start">
+<div class="col-12">
+<embed src="{% static 'sshy/index.html' %}" width="1100" height="500" scale="tofit">
+</div>
+</div>
+<div class="row align-items-start">
+<div class="col-12">
+<canvas id="video-canvas" width="1100" height="500">
     <p>
         Please use a browser that supports the Canvas Element, like
         <a href="http://www.google.com/chrome">Chrome</a>,
@@ -42,4 +49,7 @@ https://docs.google.com/document/d/1H3x34bdztWy-uN8EYe-FxJL2YojIjd-0feL9d8BMtN4/
         <a href="http://www.apple.com/safari/">Safari</a> or Edge
     </p>
 </canvas>
+</div>
+</div>
+</div>
 </body>
