@@ -5,5 +5,6 @@
 db.sqlite3
 */settings_local.py
 htmlcov
+*__pycache__*
 media/*
 *.pem
