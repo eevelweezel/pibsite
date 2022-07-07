@@ -10,7 +10,7 @@ Create a python 3.10 venv
 Run: ./manage.py collectstatic
 
 From the root directory, run:
-    webssh
+    wssh
 
     ./manage.py runserver
 
