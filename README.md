@@ -7,7 +7,7 @@ Repo for the website: https://github.com/eevelweezel/pibsite
 
 Create a python 3.10 venv
 
-Run: ./manage.py collectstatic
+Run: pip install -r requirements.txt
 
 From the root directory, run:
     wssh
